@@ -1,0 +1,312 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 60%;
+        grid-template-columns: 30% 60%;
+    -webkit-column-gap: 10%;
+            column-gap: 10%;
+    padding: 0% 5%;
+    background-color: #66c2ff;
+  }
+  
+  nav .array-inputs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+    place-content: center;
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_size {
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_speed {
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_generate {
+    margin-top: 10px;
+    background-color: transparent;
+    border-color: cadetblue;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_generate:hover {
+    cursor: pointer;
+    background-color: rgb(94, 2, 255);
+    -webkit-text-fill-color: aliceblue;
+  }
+
+  nav .header_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  nav .header_right .nav-heading {
+    display: inline-block;
+    font-size: xxx-large;
+    padding: 3% 0%;
+  }
+  
+  nav .header_right .algos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (16.66667%);
+        grid-template-columns: repeat(6, 16.66667%);
+    place-content: center;
+    padding: 2% 0%;
+  }
+  
+  nav .header_right .algos button {
+    background-color: transparent;
+    border-color: cadetblue;
+    color: rgb(0, 0, 0);
+    outline: none;
+    padding: 5% 0%;
+    font-size: 15px;
+  }
+  
+  nav .header_right .algos button:hover {
+    background-color: rgb(94, 2, 255);
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_selected {
+    background-color: white;
+    color: rgb(136, 0, 255);
+  }
+  
+  nav .header_right .algos .butt_selected:hover {
+    background-color: rgb(94, 2, 255);
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_unselected:hover {
+    background-color: rgb(94, 2, 255);
+    cursor: pointer;
+  }
+  
+  section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+        grid-template-columns: 20% 60% 20%;
+  }
+  
+  section .Complexity_Containers {
+    margin-top: 20%;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions {
+    margin-top: 20%;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions p {
+    display: inline;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+    font-size: medium;
+    text-transform: none;
+  }
+  
+  section #Info_Cont1 {
+    padding: 20% 10%;
+  }
+  
+  section #Info_Cont1 h3 {
+    text-decoration: underline;
+  }
+  
+  section #array_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  section #Info_Cont2 {
+    padding: 20% 10%;
+  }
+  
+  section #Info_Cont2 h3 {
+    text-decoration: underline;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  footer {
+    background-color: #66c2ff;;
+    color: #000000;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #66c2ff;
+  }
+  
+  .copyright {
+    font-size: 15px;
+    background-color: #66c2ff;
+    padding: 5px 20px;
+    text-transform: none;
+  }
+   
+  .copyright a {
+    background-color: #66c2ff;
+    color: inherit; /* Ensure link color matches parent element */
+    text-decoration: none; /* Remove underline from link */
+    text-transform: none;
+  }
+
+  .copyright a:hover {
+    text-decoration: underline;
+  }
+
+  .icon1 i{
+    margin-top: 1px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+  .icon2 i{
+    margin-top: 1px;
+    padding: 10px;
+    color: black;
+  }
+ 
+  .icon3 i{
+    margin-top: 1px;
+    padding: 10px;
+    color: blue;
+  }
+
+  .icon4 i{
+    margin-top: 1px;
+    padding: 10px;
+    color: red
+  }
+
+  .icon5 i{
+    margin-top: 1px;
+    padding: 10px;
+    color: darkmagenta;
+  }
+   
+  .icon1 .fab {
+	  font-family:sans-serif;
+  }
+
+  .icon1 .fab::before{
+	  content:"𝕏";
+	  font-size:1.2em;
+  }
+
+  .icon1 i:hover{
+    transform: translateY(-2px); 
+  }
+
+  .icon2 i:hover{
+    transform: translateY(-2px); 
+  }
+
+  .icon3 i:hover{
+    transform: translateY(-2px); 
+  }
+
+  .icon4 i:hover{
+    transform: translateY(-2px); 
+  }
+
+  .icon5 i:hover{
+    transform: translateY(-2px); 
+  }
+  /*Responive Design for small & medium screens*/
+
+  @media (max-width: 480px) {
+    nav {
+      grid-template-columns: 1fr; /* Change to full width for smaller screens */
+    }
+  
+    nav .header_right .algos {
+      grid-template-columns: repeat(3, 1fr); /* Adjust grid layout for medium screens */
+    }
+    
+    nav .array-inputs,
+    nav .array-inputs #a_size,
+    nav .array-inputs #a_speed {
+      padding: 5% 0%; /* Adjust padding for smaller screens */
+    }
+  
+    section {
+      grid-template-columns: 2fr; /* Change to full width for smaller screens */
+    }
+  
+    section .Complexity_Containers,
+    section .Complexity_Containers .Pair_Definitions {
+      margin-top: 20%; /* Adjust margin for smaller screens */
+    }
+  
+    section #Info_Cont1,
+    section #Info_Cont2 {
+      padding: 10% 5%; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 1250px) {
+    nav {
+      grid-template-columns: 1fr 1fr; /* Adjust column layout for medium screens */
+    }
+  
+    nav .header_right .algos {
+      grid-template-columns: repeat(3, 1fr); /* Adjust grid layout for medium screens */
+    }
+  
+    section .Complexity_Containers,
+    section .Complexity_Containers .Pair_Definitions {
+      margin-top: 15%; /* Adjust margin for medium screens */
+    }
+  
+    section #Info_Cont1,
+    section #Info_Cont2 {
+      padding: 15% 10%; /* Adjust padding for medium screens */
+    }
+  }
